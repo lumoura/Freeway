@@ -1,0 +1,44 @@
+Este é o Projeto de clone do jogo FREEWAY (by Activision) para Atari
+
+Todo o código fonte encontra-se em Freeway/src
+Todas as classes compiladas encontram-se em Freeway/out/production/Freeway
+O arquivo UML do diagrama de classes encontra-se em Freeway/Diagrams
+Há uma imagem do diagrama de classes em Freeway/Diagrams
+O código fonte está somente em inglês, assim como seus comentários.
+
+Versão do Java no computador que foi utilizado no desenvolvimento: jre1.8.0_77 e jdk1.8.0_77
+IDE utilizada para codificar/compilar/testar/debugar: IntelliJ IDEA 2016.1.1
+
+Execução: 
+-> Pode-se carregar o código fonte em uma IDE para executar o jogo.
+-> Pode-se executar o jogo diretamente pelo arquivo Freeway/out/artifacts/Freeway/Freeway.jar (o arquivo deve estar na mesma pasta que a pasta "resources")
+
+OBS: Esta implementação tenta imitar sempre que possível o jogo original, não contendo imagens ou mensagens de vitória do jogador 1 ou 2.
+O tempo simplesmente acaba e pode-se ver quem obteve a maior pontuação.
+
+
+Como jogar:
+-> JOGADOR 1:
+Cima: Seta para cima
+Baixo: Seta para baixo
+Start: Enter
+
+-> JOGADOR 2:
+Cima: W
+Baixo: S
+Start: Espaço
+
+-> Ao executar a aplicação, será exibida a tela de seleção do nível (1 até 8).
+Os jogadores podem então alternar entre os níveis pressionando as teclas de Cima/Baixo, 
+e então escolhendo o nível desejado pressionando Start.
+O objetivo é alcançar o outro lado da rua o maior número de vezes possíveis, sendo que quando
+o personagem controlado pelo jogador colide com um veículo, é transportado para sua posição inicial.
+O jogo tem duração de 2 minutos e 16 segundos assim como o jogo original.
+
+Referências:
+-> https://en.wikipedia.org/wiki/Freeway_%28video_game%29 (informações sobre o jogo original)
+-> http://docs.oracle.com/javase/8/ (documentação do java)
+
+Desenvolvimento:
+Isabela Vegini de Matos
+Larissa Porfino Maciel

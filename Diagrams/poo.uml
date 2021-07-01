@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.usp.icmc.poo</OriginalElement>
+  <nodes>
+    <node x="1342.5508069828722" y="1341.0">br.usp.icmc.poo.gameobj.Chicken</node>
+    <node x="204.0" y="210.0">br.usp.icmc.poo.funcs.RandomFunction</node>
+    <node x="489.1026844532283" y="887.0">br.usp.icmc.poo.gameobj.BlinkingCar</node>
+    <node x="1548.6787957311142" y="21.932489451476783">br.usp.icmc.poo.utils.Textures</node>
+    <node x="341.1026844532282" y="898.5">br.usp.icmc.poo.gameobj.ColorfulCar</node>
+    <node x="438.1026844532283" y="1363.0">br.usp.icmc.poo.utils.Level</node>
+    <node x="753.3008069828724" y="1033.0">br.usp.icmc.poo.gameobj.Lane</node>
+    <node x="1067.4540513833992" y="111.0">br.usp.icmc.poo.gameobj.Actor</node>
+    <node x="757.8526844532282" y="1683.0">br.usp.icmc.poo.app.FreewayGame</node>
+    <node x="1088.0508069828722" y="1066.0">br.usp.icmc.poo.gameobj.Number</node>
+    <node x="305.8125" y="0.0">br.usp.icmc.poo.funcs.Function</node>
+    <node x="395.31250000000006" y="232.0">br.usp.icmc.poo.funcs.ConstantFunction</node>
+    <node x="963.7040513833992" y="898.0">br.usp.icmc.poo.funcs.ImitateFunction</node>
+    <node x="1066.5508069828722" y="1352.0">br.usp.icmc.poo.gameobj.ScoreDisplay</node>
+    <node x="0.0" y="221.0">br.usp.icmc.poo.funcs.SineFunction</node>
+    <node x="1546.2405063291137" y="487.2658227848098">br.usp.icmc.poo.utils.GamePrefs</node>
+    <node x="542.6026844532282" y="477.0">br.usp.icmc.poo.gameobj.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.usp.icmc.poo.gameobj.Car" target="br.usp.icmc.poo.funcs.Function">
+      <point x="0.0" y="-180.0" />
+      <point x="770.1026844532282" y="81.0" />
+      <point x="415.3125" y="81.0" />
+      <point x="36.5" y="25.5" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.Number" target="br.usp.icmc.poo.gameobj.Actor">
+      <point x="0.0" y="-81.0" />
+      <point x="1194.5508069828722" y="457.0" />
+      <point x="1225.4540513833992" y="457.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.ColorfulCar" target="br.usp.icmc.poo.gameobj.Car">
+      <point x="32.0" y="-36.5" />
+      <point x="437.1026844532282" y="862.0" />
+      <point x="575.1026844532282" y="862.0" />
+      <point x="-195.0" y="180.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.funcs.ConstantFunction">
+      <point x="-71.72727272727275" y="-114.0" />
+      <point x="497.87541172595553" y="1301.0" />
+      <point x="294.2111330698291" y="1301.0" />
+      <point x="294.2111330698291" y="447.0" />
+      <point x="411.18750000000006" y="447.0" />
+      <point x="-47.625" y="37.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.funcs.RandomFunction">
+      <point x="-95.63636363636363" y="-114.0" />
+      <point x="473.96632081686465" y="1311.0" />
+      <point x="280.5" y="1311.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.gameobj.BlinkingCar">
+      <point x="0.0" y="-114.0" />
+      <point x="569.6026844532282" y="1321.0" />
+      <point x="570.7111330698292" y="1321.0" />
+      <point x="570.7111330698292" y="1008.0" />
+      <point x="532.1026844532282" y="1008.0" />
+      <point x="-43.0" y="48.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.BlinkingCar" target="br.usp.icmc.poo.gameobj.Car">
+      <point x="43.0" y="-48.0" />
+      <point x="618.1026844532282" y="862.0" />
+      <point x="640.1026844532282" y="862.0" />
+      <point x="-130.0" y="180.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.Chicken" target="br.usp.icmc.poo.gameobj.Actor">
+      <point x="0.0" y="-136.0" />
+      <point x="1498.0508069828722" y="457.0" />
+      <point x="1330.7873847167325" y="457.0" />
+      <point x="105.33333333333326" y="158.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.funcs.RandomFunction" target="br.usp.icmc.poo.funcs.Function">
+      <point x="0.0" y="-59.0" />
+      <point x="280.5" y="91.0" />
+      <point x="366.6458333333333" y="91.0" />
+      <point x="-12.166666666666686" y="25.5" />
+    </edge>
+    <edge source="br.usp.icmc.poo.funcs.ImitateFunction" target="br.usp.icmc.poo.gameobj.Car">
+      <point x="-29.000000000000114" y="-37.0" />
+      <point x="992.7040513833992" y="862.0" />
+      <point x="965.1026844532282" y="862.0" />
+      <point x="195.0" y="180.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.BlinkingCar" target="br.usp.icmc.poo.funcs.ConstantFunction">
+      <point x="-43.0" y="-48.0" />
+      <point x="532.1026844532282" y="457.0" />
+      <point x="474.68750000000006" y="457.0" />
+      <point x="15.875" y="37.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.Car" target="br.usp.icmc.poo.gameobj.Actor">
+      <point x="151.66666666666663" y="-180.0" />
+      <point x="921.769351119895" y="457.0" />
+      <point x="1120.120718050066" y="457.0" />
+      <point x="-105.33333333333326" y="158.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.gameobj.Lane">
+      <point x="95.63636363636363" y="-114.0" />
+      <point x="665.239048089592" y="1311.0" />
+      <point x="788.5508069828724" y="1311.0" />
+      <point x="-105.75" y="114.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.app.FreewayGame" target="br.usp.icmc.poo.gameobj.ScoreDisplay">
+      <point x="92.0625" y="-235.0" />
+      <point x="1095.4151844532282" y="1643.0" />
+      <point x="1258.5508069828722" y="1643.0" />
+      <point x="64.0" y="125.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.Lane" target="br.usp.icmc.poo.gameobj.Car">
+      <point x="0.0" y="-114.0" />
+      <point x="894.3008069828724" y="1008.0" />
+      <point x="895.7040513833992" y="1008.0" />
+      <point x="895.7040513833992" y="862.0" />
+      <point x="900.1026844532282" y="862.0" />
+      <point x="130.0" y="180.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.ScoreDisplay" target="br.usp.icmc.poo.gameobj.Number">
+      <point x="-64.0" y="-125.0" />
+      <point x="1130.5508069828722" y="1321.0" />
+      <point x="1141.3008069828722" y="1321.0" />
+      <point x="-53.25" y="81.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.funcs.SineFunction">
+      <point x="-119.5454545454545" y="-114.0" />
+      <point x="450.0572299077738" y="1321.0" />
+      <point x="92.0" y="1321.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.app.FreewayGame" target="br.usp.icmc.poo.gameobj.Chicken">
+      <point x="214.8125" y="-235.0" />
+      <point x="1218.1651844532282" y="1663.0" />
+      <point x="1575.8008069828722" y="1663.0" />
+      <point x="77.75" y="136.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.funcs.ImitateFunction" target="br.usp.icmc.poo.funcs.Function">
+      <point x="28.999999999999886" y="-37.0" />
+      <point x="1050.7040513833992" y="71.0" />
+      <point x="439.6458333333333" y="71.0" />
+      <point x="60.833333333333314" y="25.5" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.gameobj.Car">
+      <point x="47.818181818181756" y="-114.0" />
+      <point x="617.42086627141" y="1291.0" />
+      <point x="721.5625" y="1291.0" />
+      <point x="721.5625" y="862.0" />
+      <point x="705.1026844532282" y="862.0" />
+      <point x="-65.0" y="180.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.app.FreewayGame" target="br.usp.icmc.poo.gameobj.Lane">
+      <point x="-92.0625" y="-235.0" />
+      <point x="911.2901844532282" y="1663.0" />
+      <point x="948.8526844532282" y="1663.0" />
+      <point x="948.8526844532282" y="1321.0" />
+      <point x="929.5508069828724" y="1321.0" />
+      <point x="35.25" y="114.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.Lane" target="br.usp.icmc.poo.funcs.ImitateFunction">
+      <point x="94.0" y="-114.0" />
+      <point x="988.3008069828724" y="1008.0" />
+      <point x="1021.7040513833992" y="1008.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.utils.Level" target="br.usp.icmc.poo.gameobj.ColorfulCar">
+      <point x="-23.909090909090878" y="-114.0" />
+      <point x="545.6935935441375" y="1281.0" />
+      <point x="410.6026844532282" y="1281.0" />
+      <point x="410.6026844532282" y="1008.0" />
+      <point x="437.1026844532282" y="1008.0" />
+      <point x="32.0" y="36.5" />
+    </edge>
+    <edge source="br.usp.icmc.poo.app.FreewayGame" target="br.usp.icmc.poo.utils.Level">
+      <point x="-153.4375" y="-235.0" />
+      <point x="849.9151844532282" y="1653.0" />
+      <point x="635.3526844532282" y="1653.0" />
+      <point x="65.75" y="114.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.Car" target="br.usp.icmc.poo.funcs.ConstantFunction">
+      <point x="-151.66666666666663" y="-180.0" />
+      <point x="618.4360177865617" y="447.0" />
+      <point x="506.43750000000006" y="447.0" />
+      <point x="47.625" y="37.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.funcs.SineFunction" target="br.usp.icmc.poo.funcs.Function">
+      <point x="46.0" y="-48.0" />
+      <point x="138.0" y="81.0" />
+      <point x="342.3125" y="81.0" />
+      <point x="-36.5" y="25.5" />
+    </edge>
+    <edge source="br.usp.icmc.poo.gameobj.ColorfulCar" target="br.usp.icmc.poo.funcs.ConstantFunction">
+      <point x="-32.0" y="-36.5" />
+      <point x="373.1026844532282" y="457.0" />
+      <point x="442.93750000000006" y="457.0" />
+      <point x="-15.875" y="37.0" />
+    </edge>
+    <edge source="br.usp.icmc.poo.funcs.ConstantFunction" target="br.usp.icmc.poo.funcs.Function">
+      <point x="-5.6843418860808015E-14" y="-37.0" />
+      <point x="458.8125" y="91.0" />
+      <point x="390.9791666666667" y="91.0" />
+      <point x="12.166666666666686" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.27356675644478645" x="1074.751758087201" y="1149.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
